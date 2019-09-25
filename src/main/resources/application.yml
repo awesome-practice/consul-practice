@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        catalog-services-watch-delay: 3000
+        catalog-services-watch-timeout: 4
+  application:
+    name: consul-practice
+server:
+  port: 8081
+
